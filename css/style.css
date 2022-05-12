@@ -64,8 +64,11 @@ h4{
     text-align: center;
 }
 
-button{
+.button{
     background-color: aquamarine;
+    padding: 15px;
+    cursor: pointer;
+    text-align:center;
 }
 
 
