@@ -48,7 +48,7 @@ contact
 
 <section class="heroImg">
     <div class="content">
-        <img src="images/user.png">
+        <img class="profile" src="images/user.jpg">
         <p>
             I am an Atlanta-based UX Designer with a background in client solutions. 
             I focus on user-centric problem solving because I enjoy solving problems people don’t realize they have. 
@@ -58,8 +58,9 @@ contact
         </p>
         <div class="button" id="button1">
             Download Resume
-          </div>
+           </div>
     </div>
+
 </section>
 
 <section class ="mySkills">
@@ -95,27 +96,35 @@ contact
 </section>
 
 <section class = "myWork">
-    <h2> My Work</h2>
-<div class = "workGrid">
-    <div class = "workImage1" class="projectGridArea">
-        <img >
-    </div>
-    <div id ="work1"  class="projectGridArea">
-        <h4> Project One</h4>
-        <p>Mobile Application Creation</p>
-        <button>learn more</button>
-    </div>
-    <div class = "workImage2"  class="projectGridArea">
-        <img >
-    </div>
-    <div id="work2" class="projectGridArea">
-        <h4> Project Two</h4>
-        <p>Government Agency Redesign</p>
-        <button>learn more</button>
-    </div>
-    <h4> View all projects</h4>
 
-</div>
+
+    <h2> My Work</h2>
+
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/project1.PNG" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Mobile Application Creation</p>
+        </div>
+      </div>
+
+      
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="images/project2.PNG" alt="Card image cap">
+        <div class="card-body">
+          <p class="card-text">Nonprofit Website Redesign</p>
+        </div>
+      </div>
+
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Government Agency Website Redesign</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      
+
 </section>
 
 <footer>
@@ -135,5 +144,6 @@ contact
         </ul>
 </footer>
     </body>
-<script src="js/index.js"> </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/index.js"></script>
 </html>

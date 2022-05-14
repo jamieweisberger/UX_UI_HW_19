@@ -1,3 +1,5 @@
-$('#button1').on("hover", function(){
-    $('.cssChange').css("background-color","white");
-  });
+$('#button1').hover(function(){
+  $('.button').css("background-color","aquamarine");
+}, function(){  
+  $('.button').css("background-color", "tan");  
+}); 
